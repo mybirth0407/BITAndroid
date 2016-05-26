@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent">
+
+  <DatePicker android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:calendarViewShown="false"
+              android:layout_gravity="center_horizontal"
+              android:id="@+id/datePicker"/>
+zz              <!--android:datePickerMode="spinner"-->
+
+  <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/dateText"
+            android:text="[TimeText]"/>
+
+  <Button android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:id="@+id/button"
+          android:text="선택한 날짜 조회"/>
+
+</LinearLayout>
